@@ -1,22 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
+*{margin: 0; padding: 0;}
+.wrapper{
+	width: 980px;
+	margin: auto;
 }
-.wrapper {
-    width: 980px;
-    margin: 0 auto;
+.sidebar{
+	float: left;
+	width: 300px;
 }
-.sidebar {
-    float: left;
-    width: 300px;
+.content{
+	float: left;
+	width: 680px;
 }
-.content {
-    float: left;
-    width: 680px;
+ul{
+	list-style: none;
 }
-ul {
-    list-style-type: none;
-}
-.category {
-    padding-left: 20px;
+.category ul{
+	padding-left: 20px;
 }
