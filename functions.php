@@ -91,3 +91,21 @@ function cats_id($array, $id)
 
     return $data;
 }
+
+/*
+ * Получение товаров
+ */
+function get_products($ids = false){
+    global $connection;
+    if($ids){
+        $query = "SELECT * FROM products WHERE parent IN($ids) ORDER BY title";
+    }else{
+        $query = "SELECT * FROM products ORDER BY title";
+    }
+    $res = mysqli_query($connection, $query);
+    $products = array();
+    while($row = mysqli_fetch_assoc($res)){
+        $products[] = $row;
+    }
+    return $products;
+}

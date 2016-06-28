@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b024a0a5-6a63-4b8e-8607-37147a54135e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog.php" afterPath="$PROJECT_DIR$/catalog.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
@@ -36,30 +36,32 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="306">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="catalog.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="catalog.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="704">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+            <state relative-caret-position="73">
+              <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
               <folding>
-                <marker date="1467132450637" expanded="true" signature="207:231" placeholder="SELECT * FRO... categories" />
+                <marker date="1467135392061" expanded="true" signature="207:231" placeholder="SELECT * FRO... categories" />
+                <marker date="1467135392061" expanded="true" signature="1755:1814" placeholder="SELECT * FRO... products" />
+                <marker date="1467135392061" expanded="true" signature="1846:1883" placeholder="SELECT * FRO... products" />
               </folding>
             </state>
           </provider>
@@ -84,8 +86,8 @@
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/category_template.php" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/catalog.php" />
       </list>
     </option>
@@ -210,12 +212,12 @@
       <workItem from="1466961236124" duration="6668000" />
       <workItem from="1467025743229" duration="23000" />
       <workItem from="1467031088332" duration="884000" />
-      <workItem from="1467131018230" duration="1733000" />
+      <workItem from="1467131018230" duration="4460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9308000" />
+    <option name="totallyTimeSpent" value="12035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="6" width="875" height="1047" extended-state="0" />
@@ -277,7 +279,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1467132450637" expanded="true" signature="207:231" placeholder="SELECT * FRO... categories" />
+            <marker date="1467135392061" expanded="true" signature="207:231" placeholder="SELECT * FRO... categories" />
+            <marker date="1467135392061" expanded="true" signature="1755:1814" placeholder="SELECT * FRO... products" />
+            <marker date="1467135392061" expanded="true" signature="1846:1883" placeholder="SELECT * FRO... products" />
           </folding>
         </state>
       </provider>
@@ -303,7 +307,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1467132450637" expanded="true" signature="207:231" placeholder="SELECT * FRO... categories" />
+            <marker date="1467135392061" expanded="true" signature="207:231" placeholder="SELECT * FRO... categories" />
+            <marker date="1467135392061" expanded="true" signature="1755:1814" placeholder="SELECT * FRO... products" />
+            <marker date="1467135392061" expanded="true" signature="1846:1883" placeholder="SELECT * FRO... products" />
           </folding>
         </state>
       </provider>
@@ -401,29 +407,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://E:/WEB/PHP/Создание каталога товаров с помощью PHP, MySQL и jQuery/Создание каталога товаровЧасть1/Создание каталога товаров/Урок 03/Исходники/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="543">
+          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+          <folding>
+            <marker date="1461692815896" expanded="true" signature="207:231" placeholder="SELECT * FRO... categories" />
+            <marker date="1461692815896" expanded="true" signature="1697:1756" placeholder="SELECT * FRO... products" />
+            <marker date="1461692815896" expanded="true" signature="1779:1816" placeholder="SELECT * FRO... products" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/WEB/PHP/Создание каталога товаров с помощью PHP, MySQL и jQuery/Создание каталога товаровЧасть1/Создание каталога товаров/Урок 03/Исходники/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="306">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/WEB/PHP/Создание каталога товаров с помощью PHP, MySQL и jQuery/Создание каталога товаровЧасть1/Создание каталога товаров/Урок 03/Исходники/catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+        <state relative-caret-position="73">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
           <folding>
-            <marker date="1467132450637" expanded="true" signature="207:231" placeholder="SELECT * FRO... categories" />
+            <marker date="1467135392061" expanded="true" signature="207:231" placeholder="SELECT * FRO... categories" />
+            <marker date="1467135392061" expanded="true" signature="1755:1814" placeholder="SELECT * FRO... products" />
+            <marker date="1467135392061" expanded="true" signature="1846:1883" placeholder="SELECT * FRO... products" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
