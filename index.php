@@ -17,6 +17,8 @@
 		<div class="content">
 			<p><?=$breadcrumbs;?></p>
 			<br>
+            <hr>
+            <p><?= $ids; ?></p>
 			<hr>
 			<?php print_arr($categories) ?>
 		</div>
