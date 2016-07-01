@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Каталог</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="<?=PATH?>style.css">
 </head>
 <body>
 	<a href="/catalog/">Главная</a>
@@ -25,7 +25,7 @@
 				<?php endif; ?>
 
 				<?php foreach($products as $product): ?>
-					<a href="?product=<?=$product['id']?>"><?=$product['title']?></a><br>
+					<a href="<?=PATH?>product.php?product=<?=$product['id']?>"><?=$product['title']?></a><br>
 				<?php endforeach; ?>
 
 				<?php if( $count_pages > 1 ): ?>
@@ -37,9 +37,9 @@
 			<?php endif; ?>
 		</div>
 	</div>
-	<script src="js/jquery-1.9.0.min.js"></script>
-	<script src="js/jquery.accordion.js"></script>
-	<script src="js/jquery.cookie.js"></script>
+	<script src="<?=PATH?>js/jquery-1.9.0.min.js"></script>
+	<script src="<?=PATH?>js/jquery.accordion.js"></script>
+	<script src="<?=PATH?>js/jquery.cookie.js"></script>
 	<script>
 		$(document).ready(function(){
 			$(".category").dcAccordion();
